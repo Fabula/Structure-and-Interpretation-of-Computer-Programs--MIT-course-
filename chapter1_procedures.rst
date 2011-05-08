@@ -248,7 +248,3 @@ Else - специальный символ, который в заключите
 	   (+ a 1))
 
 Ответ:
-<script type='text/javascript' src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.js'></script>
-<div style = 'width: 100%; height: 20px; background-color: #333'; padding: 5px 5px 5px 30px;>
-	<input type = 'submit'>+</input><p>скрытый текст...</p>
-</div>
