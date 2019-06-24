@@ -281,9 +281,9 @@ Else - специальный символ, который в заключите
 ::
 
 	(define (three_num_sqrt a b c)
-                    (cond ((and (< a c) (< a b)) (+ (sqrt b) (sqrt c)))  
-			  ((and (< b a) (< b c)) (+ (sqrt a) (sqrt c)))
-			  (else (+ (sqrt a) (sqrt b)))))
+                    (cond ((and (< a c) (< a b)) (+ (square b) (square c)))  
+			  ((and (< b a) (< b c)) (+ (square a) (square c)))
+			  (else (+ (square a) (square b)))))
 
 1.4 Заметим, что наша модель вычислений разрешает существование комбинаций, операторы которых составные выражения. С помощью этого наблюдения опишите, как работает следующая процедура:
 ::
